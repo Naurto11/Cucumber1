@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "To validate login with Invalid username and invalid password",
+        "id": "to-validate-the-login-functionality-of-facebook-application;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6650180600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has to launch the chrome browser and pass the url",
+            "match": {
+              "location": "StepDefinationClass.user_has_to_launch_the_chrome_browser_and_pass_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 303327100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user has to enter the values in username and password",
+            "match": {
+              "location": "StepDefinationClass.user_has_to_enter_the_values_in_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75373300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user has to click the login button",
+            "match": {
+              "location": "StepDefinationClass.user_has_to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user has to navigate the error page",
+            "match": {
+              "location": "StepDefinationClass.user_has_to_navigate_the_error_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of facebook application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "FeatureFile/login.feature"
+  }
+]
